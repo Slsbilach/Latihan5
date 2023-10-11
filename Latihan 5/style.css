@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
 }
-
+ 
 body {
   width: 100%;
   background-color: #fff;
@@ -22,6 +22,7 @@ body {
   justify-content: center;
   padding: 0 120px;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -45,6 +46,10 @@ header div.name h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300px ;
   font-size: 2.5em;
+}
+
+.nav-bar{
+  font-family:'Montserrat', sans-serif; 
 }
 
 nav ul {
@@ -103,11 +108,11 @@ header nav ul li a {
   margin-top: 15px;
 }
 
-.btn {
+.botton {
   padding: 0.3em 1em;
   font-size: 1.3em;
-  border: #94e8dd solid 2px;
-  background-color: #b3eae3;
+  border: #6ed6c8 solid 2px;
+  background-color: #3fb7a7;
   color: white;
   box-sizing: border-box;
   text-decoration: none;
@@ -165,7 +170,7 @@ img#about-img {
   font-family: sans-serif;
 }
 
-/* styling for our-service section */
+
 
 #our-service {
   padding-top: 75px;
@@ -286,8 +291,6 @@ table tr label {
   font-family: 'Ubuntu', sans-serif;
   padding: 5px 0;
 }
-
-/* styling for footer */
 
 footer {
   background-color: #00dfc0;
